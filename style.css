@@ -26,12 +26,7 @@ img {
     height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0 0 10px;
     font-weight: 600;
 }
@@ -51,11 +46,11 @@ body {
 
 
 
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
+} */
 
 
 .full-height {
