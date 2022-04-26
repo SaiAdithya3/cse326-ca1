@@ -179,9 +179,7 @@ input:-webkit-autofill:focus {
     padding-bottom: 20px;
 }
 
-.page-title h2:after {
-    content: "\e675";
-    font-family: 'themify';
+.separator {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);

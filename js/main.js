@@ -1,6 +1,5 @@
 (function ($) {
 
-    "use strict";
     $(".carousel-inner .item:first-child").addClass("active");
 
     $(".mainmenu-area #mainmenu li a").on("click", function () {
@@ -11,12 +10,6 @@
         mobile: true,
     });
 
-    $.scrollUp({
-        scrollText: '<i class="fa fa-angle-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
   
     $('.testimonials').owlCarousel({
         loop: true,
@@ -26,7 +19,7 @@
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         items: 1
     });
   
@@ -38,7 +31,7 @@
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         items: 1,
         animateIn: 'fadeIn',
         animateOut: 'fadeOut',
@@ -53,7 +46,7 @@
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         responsive: {
             0: {
                 items: 3,
